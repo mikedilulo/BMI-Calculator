@@ -16,9 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     @IBAction func sliderValueAction(_ sender: UISlider) {
-        let currentValue = Int(sender.value)
+        let heightCurrentValue = Int(sender.value)
             
-        heightOutlet.text = "\(currentValue)"
+        heightOutlet.text = "\(heightCurrentValue)"
     }
     
 
