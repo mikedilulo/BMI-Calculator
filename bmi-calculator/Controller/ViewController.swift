@@ -18,12 +18,12 @@ class ViewController: UIViewController {
     }
     @IBAction func sliderValueAction(_ sender: UISlider) {
         let heightCurrentValue = Int(sender.value)
-        heightOutlet.text = "\(heightCurrentValue)"
+        heightOutlet.text = "\(heightCurrentValue)in"
     }
     
     @IBAction func weightSliderValue(_ sender: UISlider) {
         let weightCurrentValue = Int(sender.value)
-        weightOutlet.text = "\(weightCurrentValue)"
+        weightOutlet.text = "\(weightCurrentValue)lbs"
     }
     
 
