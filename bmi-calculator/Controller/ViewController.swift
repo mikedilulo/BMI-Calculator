@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func weightSliderValue(_ sender: UISlider) {
+        let weightCurrentValue = Int(sender.value)
+        weightOutlet.text = "\(weightCurrentValue)"
     }
     
 
