@@ -14,9 +14,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
     @IBAction func sliderValueAction(_ sender: UISlider) {
+        let currentValue = Int(sender.value)
+            
+        heightOutlet.text = "\(currentValue)"
     }
     
 
