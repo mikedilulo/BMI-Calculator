@@ -28,6 +28,9 @@
                                 <state key="normal" title="Calculate BMI">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculateBmiButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NlQ-zB-g3d"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Height" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GCM-uB-eBJ">
                                 <rect key="frame" x="24" y="448" width="73" height="30"/>
