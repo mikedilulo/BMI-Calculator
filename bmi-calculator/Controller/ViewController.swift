@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var heightOutlet: UILabel!
     @IBOutlet weak var sliderOutlet: UISlider!
+    @IBOutlet weak var weightOutlet: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
