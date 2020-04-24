@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var heightOutlet: UILabel!
     @IBOutlet weak var sliderOutlet: UISlider!
     @IBOutlet weak var weightOutlet: UILabel!
+    @IBOutlet weak var weightSliderOutlet: UISlider!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func calculateButtonPressed(_ sender: UIButton) {
+        print(sliderOutlet.value)
+        print(weightSliderOutlet.value)
     }
     
 }

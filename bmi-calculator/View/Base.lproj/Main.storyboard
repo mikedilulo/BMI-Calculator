@@ -86,6 +86,7 @@
                         <outlet property="heightOutlet" destination="7Oo-cN-lZZ" id="Xiu-bZ-8yI"/>
                         <outlet property="sliderOutlet" destination="1pY-1H-j6O" id="NY1-u8-xhZ"/>
                         <outlet property="weightOutlet" destination="sbT-zU-FMf" id="hu9-Bl-BMa"/>
+                        <outlet property="weightSliderOutlet" destination="nnx-5S-19R" id="I6e-yZ-5gi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
