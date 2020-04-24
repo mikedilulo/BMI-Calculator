@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         let height = sliderOutlet.value
         let weight = weightSliderOutlet.value
         
+        
         // pow is used for exponents
         let bmi = weight / pow(height, 2)
         print(bmi)
