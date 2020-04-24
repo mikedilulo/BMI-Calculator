@@ -28,8 +28,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func calculateButtonPressed(_ sender: UIButton) {
-        print(sliderOutlet.value)
-        print(weightSliderOutlet.value)
+        let height = sliderOutlet.value
     }
     
 }
