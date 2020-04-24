@@ -19,12 +19,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     @IBAction func sliderValueAction(_ sender: UISlider) {
-        let heightCurrentValue = Int(sender.value)
+        let heightCurrentValue = String(format: "%.2f", sender.value)
         heightOutlet.text = "\(heightCurrentValue)m"
     }
     
     @IBAction func weightSliderValue(_ sender: UISlider) {
-        let weightCurrentValue = Int(sender.value)
+        let weightCurrentValue = String(format: "%.0f", sender.value)
         weightOutlet.text = "\(weightCurrentValue)kg"
     }
     
@@ -32,7 +32,8 @@ class ViewController: UIViewController {
         let height = sliderOutlet.value
         let weight = weightSliderOutlet.value
         
-        let bmi = Float(weight) / Float(height) * Float(height)
+        // pow is used for exponents
+        let bmi = weight / pow(height, 2)
         print(bmi)
     }
     
