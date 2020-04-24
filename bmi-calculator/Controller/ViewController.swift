@@ -20,17 +20,20 @@ class ViewController: UIViewController {
     }
     @IBAction func sliderValueAction(_ sender: UISlider) {
         let heightCurrentValue = Int(sender.value)
-        heightOutlet.text = "\(heightCurrentValue)in"
+        heightOutlet.text = "\(heightCurrentValue)m"
     }
     
     @IBAction func weightSliderValue(_ sender: UISlider) {
         let weightCurrentValue = Int(sender.value)
-        weightOutlet.text = "\(weightCurrentValue)lbs"
+        weightOutlet.text = "\(weightCurrentValue)kg"
     }
     
     @IBAction func calculateButtonPressed(_ sender: UIButton) {
         let height = sliderOutlet.value
         let weight = weightSliderOutlet.value
+        
+        let bmi = Float(weight) / Float(height) * Float(height)
+        print(bmi)
     }
     
 }
