@@ -39,6 +39,7 @@ class ViewController: UIViewController {
         
         //second view controller
         let secondVC = SecondViewController()
+        secondVC.bmiValue = String(format: "%.1f", bmi)
 
     }
     
