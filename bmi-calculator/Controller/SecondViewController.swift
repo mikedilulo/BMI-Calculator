@@ -20,6 +20,7 @@ class SecondViewController: UIViewController {
         //create label programmatically
         let label = UILabel()
         label.text = "0.0"
-
+        label.frame = CGRect(x: 0, y: 0, width: 100, height: 50)
+        view.addSubview(label)
     }
 }
