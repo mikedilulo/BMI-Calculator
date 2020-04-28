@@ -36,6 +36,9 @@ class ViewController: UIViewController {
         // pow is used for exponents
         let bmi = weight / pow(height, 2)
         print(bmi)
+        
+        
+
     }
     
 }

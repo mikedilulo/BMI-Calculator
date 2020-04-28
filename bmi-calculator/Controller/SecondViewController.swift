@@ -10,7 +10,16 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        //create label programmatically
+        let label = UILabel()
+        label.text = "0.0"
+
     }
 }
