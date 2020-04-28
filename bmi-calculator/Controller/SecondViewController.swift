@@ -10,7 +10,7 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
-   
+    var bmiValue = "0.0"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,7 @@ class SecondViewController: UIViewController {
         
         //create label programmatically
         let label = UILabel()
-        label.text = "0.0"
+        label.text = bmiValue
         label.frame = CGRect(x: 0, y: 0, width: 100, height: 50)
         view.addSubview(label)
     }
