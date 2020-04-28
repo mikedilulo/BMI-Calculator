@@ -37,7 +37,8 @@ class ViewController: UIViewController {
         let bmi = weight / pow(height, 2)
         print(bmi)
         
-        
+        //second view controller
+        let secondVC = SecondViewController()
 
     }
     
