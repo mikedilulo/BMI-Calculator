@@ -15,8 +15,6 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .red
-        
         //create label programmatically
         let label = UILabel()
         label.text = bmiValue
