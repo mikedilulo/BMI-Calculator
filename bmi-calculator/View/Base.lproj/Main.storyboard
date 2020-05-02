@@ -136,6 +136,7 @@
                         <viewLayoutGuide key="safeArea" id="BoN-c1-Xcv"/>
                     </view>
                     <connections>
+                        <outlet property="adviceLabel" destination="0Dz-mA-7oH" id="v7c-Af-oZI"/>
                         <outlet property="bmiLabel" destination="oTG-gI-jzk" id="bLG-Z7-Ndr"/>
                     </connections>
                 </viewController>
