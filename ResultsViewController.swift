@@ -10,6 +10,7 @@ import UIKit
 
 class ResultsViewController: UIViewController {
 
+    @IBOutlet weak var bmiLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
