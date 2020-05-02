@@ -38,9 +38,9 @@ class ViewController: UIViewController {
         print(bmi)
         
         //second view controller
-        let secondVC = SecondViewController()
-        secondVC.bmiValue = String(format: "%.1f", bmi)
-        self.present(secondVC, animated: true, completion: nil)
+//        let secondVC = SecondViewController()
+//        secondVC.bmiValue = String(format: "%.1f", bmi)
+//        self.present(secondVC, animated: true, completion: nil)
 
     }
     
