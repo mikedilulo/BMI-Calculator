@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CalculateViewController: UIViewController {
     @IBOutlet weak var heightOutlet: UILabel!
     @IBOutlet weak var weightOutlet: UILabel!
     
