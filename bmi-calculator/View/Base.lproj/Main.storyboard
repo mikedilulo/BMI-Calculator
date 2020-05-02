@@ -93,10 +93,10 @@
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Results View Controller-->
         <scene sceneID="Xd4-KL-di4">
             <objects>
-                <viewController id="j2v-3D-F3O" sceneMemberID="viewController">
+                <viewController id="j2v-3D-F3O" customClass="ResultsViewController" customModule="bmi_calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r18-ml-ogc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
