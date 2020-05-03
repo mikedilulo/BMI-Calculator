@@ -9,6 +9,9 @@
 import UIKit
 
 class ResultsViewController: UIViewController {
+    
+    // optional string because we do not know what the value will be, once calculated we will pass it over
+    var bmiValue: String?
 
     @IBOutlet weak var bmiLabel: UILabel!
     @IBOutlet weak var adviceLabel: UILabel!
