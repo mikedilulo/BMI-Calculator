@@ -40,7 +40,10 @@ class CalculateViewController: UIViewController {
         self.performSegue(withIdentifier: "goToResults", sender: self)
 
     }
-    
+    // segue will intitalize a box style view controller. our job to specify the type. Using as keyword we are performing downcasting
+    // cast it down to the result view controller by writing the keyword as
+    // ! means that it is a forced downcast
+    // ResultsviewController gets created
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToResults" {
             let destinationVC = segue.destination as! ResultsViewController
