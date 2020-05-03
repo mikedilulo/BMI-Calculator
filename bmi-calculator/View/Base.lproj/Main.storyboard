@@ -87,7 +87,7 @@
                         <outlet property="sliderOutlet" destination="1pY-1H-j6O" id="NY1-u8-xhZ"/>
                         <outlet property="weightOutlet" destination="sbT-zU-FMf" id="hu9-Bl-BMa"/>
                         <outlet property="weightSliderOutlet" destination="nnx-5S-19R" id="I6e-yZ-5gi"/>
-                        <segue destination="j2v-3D-F3O" kind="presentation" id="PMj-i5-RKU"/>
+                        <segue destination="j2v-3D-F3O" kind="presentation" identifier="goToResults" id="PMj-i5-RKU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
