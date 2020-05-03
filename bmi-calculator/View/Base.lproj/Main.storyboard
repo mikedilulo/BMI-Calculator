@@ -87,6 +87,7 @@
                         <outlet property="sliderOutlet" destination="1pY-1H-j6O" id="NY1-u8-xhZ"/>
                         <outlet property="weightOutlet" destination="sbT-zU-FMf" id="hu9-Bl-BMa"/>
                         <outlet property="weightSliderOutlet" destination="nnx-5S-19R" id="I6e-yZ-5gi"/>
+                        <segue destination="j2v-3D-F3O" kind="presentation" id="PMj-i5-RKU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -98,7 +99,7 @@
             <objects>
                 <viewController id="j2v-3D-F3O" customClass="ResultsViewController" customModule="bmi_calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r18-ml-ogc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YOUR BMI CALCULATED RESULT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLu-bH-n8S">
