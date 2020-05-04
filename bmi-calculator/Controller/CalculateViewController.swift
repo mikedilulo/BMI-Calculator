@@ -37,7 +37,7 @@ class CalculateViewController: UIViewController {
         
         
         // pow is used for exponents
-        let bmi = weight / pow(height, 2)
+//        let bmi = weight / pow(height, 2)
         print(bmi)
         
         self.performSegue(withIdentifier: "goToResults", sender: self)
