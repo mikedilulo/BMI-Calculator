@@ -9,6 +9,9 @@
 import UIKit
 
 class CalculateViewController: UIViewController {
+    
+    var bmiValue = "0.0"
+    
     @IBOutlet weak var heightOutlet: UILabel!
     @IBOutlet weak var weightOutlet: UILabel!
     
