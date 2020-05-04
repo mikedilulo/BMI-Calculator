@@ -52,7 +52,7 @@ class CalculateViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToResults" {
             let destinationVC = segue.destination as! ResultsViewController
-            destinationVC.bmiValue = "0.0"
+            destinationVC.bmiValue = bmiValue
             
         }
         // Get the new view controller using segue.destination.
