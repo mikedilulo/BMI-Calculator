@@ -24,6 +24,10 @@ class ResultsViewController: UIViewController {
     }
     
     @IBAction func recalculatePressed(_ sender: UIButton) {
+        //tap into method that coems from UI View Controller
+        //transition happens in automated way
+        // completion set to nil because nothing happens after we dismiss it, go back to previus screen
+        self.dismiss(animated: true, completion: nil)
     }
     
     /*
